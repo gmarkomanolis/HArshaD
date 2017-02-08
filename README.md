@@ -4,6 +4,8 @@ This is a suite of simple tools to help the user to visualize performance data f
 
 ### Instructions
 
+* Edit the script open_darshan.sh and declare for the variable darshan_path the path where the logs are saved
+
 * To load Darshan data for your last experiment on the **same** day, execute 
 
 ```
@@ -14,6 +16,5 @@ This is a suite of simple tools to help the user to visualize performance data f
 ```
 ./open_darshan.sh job_id
 ```
-* Declare the darshan path where the logs are saved in the darshan_path variable
 
 
