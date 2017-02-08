@@ -1,11 +1,12 @@
 #Open Darshan
 #v0.1
 #George Markomanolis
-#!/bin/bash
 #Usage:
 #1) To load your last experiment on the same day, execute ./open_darshan.sh
 #2) To load darshan data from specific job, execute ./open_darshan.sh job_id
 # Declare the darshan path where the logs are saved in the darshan_path variable
+
+#!/bin/bash
 
 export darshan_path="/project/logs/darshan/"
 
