@@ -2,10 +2,19 @@
 
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
+Instructions:
+1. To load Darshan data for your last experiment on the *same* day, execute 
 ```bash
-./open_darshan job_id
+./open_darshan.sh
 ```
-You can use the [editor on GitHub](https://github.com/gmarkomanolis/darshan_tools/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+2. To load darshan data from specific job, execute 
+
+```bash
+./open_darshan.sh job_id
+```
+3. Declare the darshan path where the logs are saved in the darshan_path variable
+
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
