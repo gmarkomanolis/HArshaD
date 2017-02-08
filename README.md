@@ -2,6 +2,8 @@
 
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
+The project is called {{ site.github.project_title }}
+
 ### Instructions
 
 * Connect to the system with ```ssh -Y```
