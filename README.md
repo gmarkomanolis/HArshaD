@@ -4,17 +4,17 @@ This is a suite of simple tools to help the user to visualize performance data f
 
 Instructions
 
-1. To load Darshan data for your last experiment on the **same** day, execute 
+* To load Darshan data for your last experiment on the **same** day, execute 
 
 ```
 ./open_darshan.sh
 ```
-2. To load darshan data from specific job, execute 
+* To load darshan data from specific job, execute 
 
 ```
 ./open_darshan.sh job_id
 ```
-3. Declare the darshan path where the logs are saved in the darshan_path variable
+* Declare the darshan path where the logs are saved in the darshan_path variable
 
 
 
