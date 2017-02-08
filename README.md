@@ -2,7 +2,7 @@
 
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
-The project is called {{ site.github.darshan_tools }}
+The project is called 
 {{ site.github.current_version }}
 
 ### Instructions
