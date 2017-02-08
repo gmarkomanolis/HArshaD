@@ -3,6 +3,9 @@
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
 The project is called {{ gmarkomanolis.github.darshan_tools }}
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
 
 ### Instructions
 
