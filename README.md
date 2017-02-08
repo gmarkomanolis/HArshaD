@@ -2,7 +2,7 @@
 
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
-Instructions:
+```Instructions
 
 1. To load Darshan data for your last experiment on the **same** day, execute 
 
@@ -17,12 +17,6 @@ Instructions:
 3. Declare the darshan path where the logs are saved in the darshan_path variable
 
 
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
