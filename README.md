@@ -3,7 +3,8 @@
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
 Instructions:
-1. To load Darshan data for your last experiment on the *same* day, execute 
+
+1. To load Darshan data for your last experiment on the **same** day, execute 
 ```bash
 ./open_darshan.sh
 ```
