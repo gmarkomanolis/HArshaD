@@ -5,6 +5,7 @@ This is a suite of simple tools to help the user to visualize performance data f
 Instructions:
 
 1. To load Darshan data for your last experiment on the **same** day, execute 
+
 ```bash
 ./open_darshan.sh
 ```
