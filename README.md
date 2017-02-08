@@ -2,6 +2,9 @@
 
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
+```bash
+./open_darshan job_id
+```
 You can use the [editor on GitHub](https://github.com/gmarkomanolis/darshan_tools/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
