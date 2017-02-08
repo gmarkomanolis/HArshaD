@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to Darshan Tools
+
+This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
 You can use the [editor on GitHub](https://github.com/gmarkomanolis/darshan_tools/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
