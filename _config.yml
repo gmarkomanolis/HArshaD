@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
+markdown: kramdown
 releases: 0.1
 "current_version":  "0.1"
 "project_title": "metadata-example"
