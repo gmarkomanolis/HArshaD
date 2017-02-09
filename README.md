@@ -5,7 +5,6 @@ This is a suite of simple tools to help the user to visualize performance data f
 The project is called 
 {{ site.github.project_title }}
 {{ site.github.releases }}
-{{ site.github.contributors }}
 
 ### Instructions
 
