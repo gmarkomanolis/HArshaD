@@ -4,7 +4,7 @@ This is a suite of simple tools to help the user to visualize performance data f
 
 The project is called 
 {{ site.github.project_title }}
-{{ gmarkomanolis.github.releases }}
+{{ site.github.releases }}
 
 ### Instructions
 
