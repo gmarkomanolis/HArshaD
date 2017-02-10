@@ -1,6 +1,6 @@
-## Welcome to Darshan Tools
+## Welcome to HArshaD
 
-This is a suite of simple tools to help the user to visualize performance data from Darshan without being familiar exactly with specific commands.
+This is a suite of simple tools to help the user to Handle Darshan Data without being familiar exactly with specific commands.
 
 ### Instructions
 
