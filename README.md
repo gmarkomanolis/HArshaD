@@ -5,7 +5,6 @@ This is a suite of simple tools to help the user to visualize performance data f
 
 ### Releases
 | Version | Description | Download |
-
 |---|---|---|{% for relea in site.github.releases %}
 | {{ relea.tag_name }} | {{ relea.body }}| [Download]({{ relea.tarball_url }}) |{% endfor %}
 
