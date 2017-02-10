@@ -24,7 +24,7 @@ The PDF file will be created in the folder experiments/year/month/executable/ (v
 
 {% for relea in site.github.releases %}
 
-Version: {{ relea.tag_name }} 
+**Version**: {{ relea.tag_name }} 
 
 Changelog: {{ relea.body }}
 
