@@ -25,6 +25,9 @@ This is a suite of simple tools to help the user to visualize performance data f
 ```
 ./open_darshan.sh job_id
 ```
+
+The PDF file will be created in your current folder
+
 ### Testbed platform
 
 The scripts were tested with CRAY-XC40 ShaheenII and Darshan v2.3.1
