@@ -9,7 +9,7 @@ This is a suite of simple tools to help the user to visualize performance data f
 
 {% for repository in site.github.public_repositories %}
    {% if (repository.name)=="darshan_tools" %}
-  {% * [{{ repository.name }}]({{ repository.html_url }})   %}
+  * [{{ repository.name }}]({{ repository.html_url }})  
    {% endif %}
 {% endfor %}
 
