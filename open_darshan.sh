@@ -26,9 +26,6 @@ fi
 
 darshan-job-summary.pl $file
 
+pdf_file=`echo $file | awk 'BEGIN{FS="/"} {print $NF}' | sed 's/darshan.gz/pdf/'`
 
-file2=${file/darshan.gz/pdf}
-pdf_file=`echo $file2 | awk -F "/" '{print $8}'`
-
-#echo $pdf_file
 evince $pdf_file &
