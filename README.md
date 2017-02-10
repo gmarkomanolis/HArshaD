@@ -2,14 +2,6 @@
 
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
-
-### Releases
-
-| Version | Description | Download | Published |
-|:---:|:---:|:---:|:---:|{% for relea in site.github.releases %}
-| {{ relea.tag_name }} | {{ relea.body }}| [Download]({{ relea.tarball_url }}) |  {{ relea.published_at }} |{% endfor %}
-
-
 ### Instructions
 
 * Connect to the system with ```ssh -Y```
@@ -26,7 +18,14 @@ This is a suite of simple tools to help the user to visualize performance data f
 ./open_darshan.sh job_id
 ```
 
-The PDF file will be created in your current folder
+The PDF file will be created in the folder experiments/year/month/executable/ (v0.2+)
+
+### Releases
+
+| Version | Description | Download | Published |
+|:---:|:---:|:---:|:---:|{% for relea in site.github.releases %}
+| {{ relea.tag_name }} | {{ relea.body }}| [Download]({{ relea.tarball_url }}) |  {{ relea.published_at }} |{% endfor %}
+
 
 ### Testbed platform
 
