@@ -26,13 +26,15 @@ The PDF file will be created in the folder experiments/year/month/executable/ (v
 
 **Version**: {{ relea.tag_name }} 
 
+Date: {{ relea.published_at }}
+
 Changelog: 
 
 {{ relea.body }}
 
 [Download]({{ relea.tarball_url }}) 
 
-Date: {{ relea.published_at }} |{% endfor %}
+{% endfor %}
 
 
 ### Testbed platform
