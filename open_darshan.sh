@@ -25,7 +25,18 @@ file=`ls -ltr $darshan_path/*/*/*/$USER*"_id"$1* | tail -n 1 |  awk '{print $9}'
 fi
 
 darshan-job-summary.pl $file
+darshan-parser $file > temp_parser
+
+execu=`cat temp_parser | grep exe | awk '{print $(NF-2)}' | awk 'BEGIN{FS="/"} {print $NF}'`
+day_run=`cat temp_parser | grep end_time_asci | awk '{print $5}'`
+year_run=`cat temp_parser | grep end_time_asci | awk '{print $7}'`
+month_run=`cat temp_parser | grep end_time_asci | awk '{print $4}'`
+
+month_run2=`date -d "1 $month_run" "+%m"`
 
 pdf_file=`echo $file | awk 'BEGIN{FS="/"} {print $NF}' | sed 's/darshan.gz/pdf/'`
+mkdir -p experiments/$year_run/$month_run2/$day_run/$execu
+mv $pdf_file experiments/$year_run/$month_run2/$day_run/$execu
+mv temp_parser experiments/$year_run/$month_run2/$day_run/$execu
 
-evince $pdf_file &
+evince experiments/$year_run/$month_run2/$day_run/$execu/$pdf_file &
