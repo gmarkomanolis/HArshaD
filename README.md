@@ -32,10 +32,6 @@ Changelog: {{ relea.body }}
 
 Date: {{ relea.published_at }} |{% endfor %}
 
-| Version | Description | Download | Published |
-|:---:|:---:|:---:|:---:|{% for relea in site.github.releases %}
-| {{ relea.tag_name }} | {{ relea.body }}| [Download]({{ relea.tarball_url }}) |  {{ relea.published_at }} |{% endfor %}
-
 
 ### Testbed platform
 
