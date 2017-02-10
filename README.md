@@ -3,10 +3,11 @@
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
 ### Releases
+| Version | Description | Download |
+|---------|-------------|----------|
 {% for relea in site.github.releases %}
-{{ relea.tag_name }}
-{{ relea.body }}
-[{{ relea.tarball_url }}]
+| {{ relea.tag_name }} | {{ relea.body }}| [{{ relea.tarball_url }}] |
+{% endfor %}
 
 {% for repository in site.github.public_repositories %}
    {% if repository.name=="darshan_tools" %}
