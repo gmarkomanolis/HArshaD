@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
+markdown: kramdown
 title: Darshan Tools
 releases: 0.1
 gems:
