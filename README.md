@@ -28,5 +28,5 @@ This is a suite of simple tools to help the user to visualize performance data f
 
 ### ToDo
 
-- [ ] Organize into folders
+- [ ] Automatic organization into folders
 
