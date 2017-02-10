@@ -34,6 +34,6 @@ The scripts were tested with CRAY-XC40 ShaheenII and Darshan v2.3.1
 
 ### ToDo
 
-- [ ] Automatic organization into folders
+- [X] Automatic organization into folders
 - [ ] Adapt with newer Darshan version
 
