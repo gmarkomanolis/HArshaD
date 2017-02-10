@@ -3,7 +3,7 @@
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
 The project is called 
-{{ site.github.project_title }}
+{{ site.github.title }}
 {{ site.github.releases }}
 {{ site.github.total_commits }}
 {{ site.github.hostname }}
