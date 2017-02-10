@@ -27,6 +27,7 @@ The PDF file will be created in the folder experiments/year/month/executable/ (v
 **Version**: {{ relea.tag_name }} 
 
 Changelog: 
+
 {{ relea.body }}
 
 [Download]({{ relea.tarball_url }}) 
