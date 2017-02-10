@@ -1,6 +1,6 @@
 ## Welcome to Darshan Tools
 
-This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
+This is a suite of simple tools to help the user to visualize performance data from Darshan without being familiar exactly with specific commands.
 
 ### Instructions
 
