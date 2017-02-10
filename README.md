@@ -3,9 +3,13 @@
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
 ### Releases
-{{ site.github.releases[0].tag_name }}
+[{{ site.github.releases[0].tag_name }}]
 
 {{ site.github.releases[0].body }}
+
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
 
 ### Instructions
 
