@@ -2,9 +2,6 @@
 
 This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
 
-|ffff|fff|fff|
-|---|---|---|
-|f|f|f|
 
 ### Releases
 | Version | Description | Download |
