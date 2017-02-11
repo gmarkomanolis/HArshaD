@@ -24,6 +24,9 @@ file=`ls -ltr $darshan_path/*/*/*/$USER*"_id"$1* | tail -n 1 |  awk '{print $9}'
 
 fi
 
+echo "Used Darshan file:"
+echo $file
+
 darshan-job-summary.pl $file
 darshan-parser $file > temp_parser
 
