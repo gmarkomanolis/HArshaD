@@ -33,7 +33,11 @@ experiments/executable/year/month/ (development)
 ```
 #### Tool Compare Darshan
 
-* Available with release v0.3
+* Available with release v0.3 and afterwards
+
+* Dependency on PDFjam software
+
+[Download PDFjam](http://freecode.com/urls/f25b51928fce8fe1fb55c071e45580ce)
 
 * Edit the script compare_darshan.sh and declare for the variable darshan_path the path where the logs are saved
 
