@@ -37,7 +37,9 @@ experiments/executable/year/month/ (development)
 
 * Dependency on PDFjam software
 
-[Download PDFjam](http://freecode.com/urls/f25b51928fce8fe1fb55c071e45580ce)
+  * [Download PDFjam](http://freecode.com/urls/f25b51928fce8fe1fb55c071e45580ce)
+
+  * Use the executable in the bin folder. We do not support this software 
 
 * Edit the script compare_darshan.sh and declare for the variable darshan_path the path where the logs are saved
 
