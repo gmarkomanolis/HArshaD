@@ -1,14 +1,6 @@
-## Welcome to Darshan Tools
+## Welcome to HArshaD
 
-This is a suite of simple tools to help the user to visualize performance data from Darshan, without being familiar exactly with all the commands.
-
-
-### Releases
-
-| Version | Description | Download |
-|:---:|:---:|:---:|{% for relea in site.github.releases %}
-| {{ relea.tag_name }} | {{ relea.body }}| [Download]({{ relea.tarball_url }}) |{% endfor %}
-
+This is a suite of simple tools to help the user to Handle Darshan Data without being familiar exactly with specific commands.
 
 ### Instructions
 
@@ -26,7 +18,24 @@ This is a suite of simple tools to help the user to visualize performance data f
 ./open_darshan.sh job_id
 ```
 
-The PDF file will be created in your current folder
+The PDF file will be created in the folder experiments/year/month/executable/ (v0.2+)
+
+### Releases
+
+{% for relea in site.github.releases %}
+
+**Version**: {{ relea.tag_name }} 
+
+Date: {{ relea.published_at }}
+
+Changelog: 
+
+{{ relea.body }}
+
+[Download]({{ relea.tarball_url }}) 
+
+{% endfor %}
+
 
 ### Testbed platform
 
@@ -34,6 +43,6 @@ The scripts were tested with CRAY-XC40 ShaheenII and Darshan v2.3.1
 
 ### ToDo
 
-- [ ] Automatic organization into folders
+- [X] Automatic organization into folders (v0.2)
 - [ ] Adapt with newer Darshan version
 
