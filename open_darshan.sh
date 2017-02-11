@@ -1,6 +1,7 @@
 #Open Darshan part of HArshaD suite
 #George Markomanolis
 #KAUST Supercomputing Laboratory
+
 #Usage:
 #1) To load your last experiment on the same day, execute ./open_darshan.sh
 #2) To load darshan data from specific job, execute ./open_darshan.sh job_id
@@ -25,7 +26,7 @@ file=`ls -ltr $darshan_path/*/*/*/$USER*"_id"$1* | tail -n 1 |  awk '{print $9}'
 fi
 
 echo "Used Darshan file:"
-echo $file
+echo $file"\n"
 
 darshan-job-summary.pl $file
 darshan-parser $file > temp_parser
