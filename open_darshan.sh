@@ -1,6 +1,6 @@
-#Open Darshan
-#v0.1
+#Open Darshan part of HArshaD suite
 #George Markomanolis
+#KAUST Supercomputing Laboratory
 #Usage:
 #1) To load your last experiment on the same day, execute ./open_darshan.sh
 #2) To load darshan data from specific job, execute ./open_darshan.sh job_id
@@ -35,8 +35,8 @@ month_run=`cat temp_parser | grep end_time_asci | awk '{print $4}'`
 month_run2=`date -d "1 $month_run" "+%m"`
 
 pdf_file=`echo $file | awk 'BEGIN{FS="/"} {print $NF}' | sed 's/darshan.gz/pdf/'`
-mkdir -p experiments/$year_run/$month_run2/$day_run/$execu
-mv $pdf_file experiments/$year_run/$month_run2/$day_run/$execu
-mv temp_parser experiments/$year_run/$month_run2/$day_run/$execu
+mkdir -p experiments/$execu/$year_run/$month_run2/$day_run/
+mv $pdf_file experiments/$execu/$year_run/$month_run2/$day_run/
+mv temp_parser experiments/$execu/$year_run/$month_run2/$day_run/
 
-evince experiments/$year_run/$month_run2/$day_run/$execu/$pdf_file &
+evince experiments/$execu/$year_run/$month_run2/$day_run/$pdf_file &
