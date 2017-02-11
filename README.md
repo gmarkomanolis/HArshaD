@@ -49,7 +49,7 @@ experiments/executable/year/month/ (development)
 ./compare_darshan.sh job_id1 job_id2
 ```
 
-Example:
+Example of one single PDF:
 
 ![comparison](https://github.com/gmarkomanolis/HArshaD/blob/master/files_for_readme/comparison_darshan_example.png)
 
