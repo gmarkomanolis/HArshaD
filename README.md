@@ -31,6 +31,18 @@ or
 ```
 experiments/executable/year/month/ (development)
 ```
+#### Tool Compare Darshan
+
+* Available with release v0.3
+
+* Edit the script compare_darshan.sh and declare for the variable darshan_path the path where the logs are saved
+
+* To compare the Darshan data of two jobs with job_id1 and job_id2, execute 
+
+```
+./compare_darshan.sh job_id1 job_id2
+```
+
 
 ### Releases
 
