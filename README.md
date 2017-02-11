@@ -5,6 +5,9 @@ This is a suite of simple tools to help the user to Handle Darshan Data without 
 ### Instructions
 
 * Connect to the system with ```ssh -Y```
+
+#### Tool Open Darshan
+
 * Edit the script open_darshan.sh and declare for the variable darshan_path the path where the logs are saved
 
 * To load Darshan data for your last experiment on the **same** day, execute 
