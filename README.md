@@ -52,7 +52,7 @@ experiments/executable/year/month/ (development)
 
 Example of one single PDF:
 
-![comparison](https://github.com/gmarkomanolis/HArshaD/blob/master/files_for_readme/comparison_darshan_example.png)
+![comparison](https://github.com/gmarkomanolis/HArshaD/blob/master/files_for_readme/comparison_darshan_example.png?raw=true)
 
 ### Releases
 
