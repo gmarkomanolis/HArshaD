@@ -18,7 +18,16 @@ This is a suite of simple tools to help the user to Handle Darshan Data without 
 ./open_darshan.sh job_id
 ```
 
-The PDF file will be created in the folder experiments/year/month/executable/ (v0.2+)
+The PDF file will be created in the folder 
+
+```
+experiments/year/month/executable/ (v0.2)
+```
+or
+
+```
+experiments/executable/year/month/ (development)
+```
 
 ### Releases
 
